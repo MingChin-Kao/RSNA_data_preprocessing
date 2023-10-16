@@ -25,20 +25,20 @@
 pip install -r requirements.txt
 ```
 
-### Step3. 設定 [config.py](http://config.py) 檔
+### Step3. 設定 config.py 檔
 
 ---
 
-於 [config.py](http://config.py) 檔案中設定 `RSNA_ROOT_DIR` 及 `ZIP_FILE` 路徑
+於 config.py 檔案中設定 `RSNA_ROOT_DIR` 及 `ZIP_FILE` 路徑
 
 - `RSNA_ROOT` ⇒ Step1 下載下來解壓縮的資料夾位置
 - `ZIP_FILE` ⇒ Step1 下載下來的 zip 檔位置
 
-### Step4. 執行 [config.py](http://config.py) 檔案
+### Step4. 執行 config.py 檔案
 
 ---
 
-執行 [config.py](http://config.py) 檔案用來建立所需資料夾
+執行 config.py 檔案用來建立所需資料夾
 
 ```bash
 python config.py
