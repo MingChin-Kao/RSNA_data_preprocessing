@@ -1,5 +1,7 @@
 # RSNA_data_preprocessing
 
+![image](https://github.com/MingChin-Kao/RSNA_data_preprocessing/blob/main/images/flow_chart.svg)
+
 ### Step1. 從 [Kaggle](https://www.kaggle.com/competitions/rsna-intracranial-hemorrhage-detection/overview) 下載檔案，並解壓縮得到以下資料夾
 
 ---
