@@ -128,7 +128,7 @@ tstmdf = pd.read_csv(os.path.join(Args.META_DATA_PATH, 'test_metadata.csv'))
 logger.info('Test  meta shape {} {}'.format(*tstmdf.shape))
 
 
-mdf = pd.concat([trnmdf, tstmdf], 0)
+mdf = pd.concat([trnmdf, tstmdf], axis=0)
 rescaledict = mdf.set_index('SOPInstanceUID')[['RescaleSlope', 'RescaleIntercept']].to_dict()
 
 logger.info('Create windowed images')
